@@ -1,0 +1,25 @@
+##### 3.0
+	Update to HTML5
+	Simplify Hook Names
+	Refactor Options API to use more modular classes
+	Integrate Theme Customizer (based on Options API)
+		add custom CSS setting for theme customizer
+	Add Metabox creator (based on Options API)
+	Move some core features to plugins:
+		Shortcodes (?)
+		Slideshows
+	Update the Theme Updater to make it universally friendly
+
+##### StartBox Core (SBX)
+	// Add the power of StartBox to your theme!
+	require_once( get_template_directory() . '/startbox/startbox.php' );
+
+	// Pick and choose which modules to include
+	add_theme_support( 'sb-options' );
+	add_theme_support( 'sb-customizer' );
+	add_theme_support( 'sb-metaboxes' );
+	add_theme_support( 'sb-layouts' );
+	add_theme_support( 'sb-sidebars' );
+	add_theme_support( 'sb-functions' );
+	add_theme_support( 'sb-updates' );
+	add_theme_support( 'sb-widgets' );
